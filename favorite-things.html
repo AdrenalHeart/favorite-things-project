@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="Stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Favorite Things</h1>
+      <div id="list">
+        <form>
+          <p>Please fill out the following form</p>
+
+          <div class="form-group">
+            <label for="food">Food:</label>
+            <input id="food" class="form-control" type="text" placeholder="i.e. Red Tavern">
+          </div>
+
+          <div class="form-group">
+            <label for="music">Music Genre/Artist(s):</label>
+            <input id="music" class="form-control" type="text" placeholder="i.e. Drum'n'Bass/Eminem">
+          </div>
+
+          <div class="form-group">
+            <label for="sports">Sports, Team(s), and/or Player(s):</label>
+            <input id="sports" class="form-control" type="text" placeholder="i.e. Boxing, Seattle Seahawks, Kyrie Irving">
+          </div>
+
+          <div class="form-group">
+            <label for="book">Book(s) and/or Author(s):</label>
+            <input id="book" class="form-control" type="text" placeholder="i.e. Hunger Games, Stephen King">
+          </div>
+
+          <div class="form-group">
+            <label for="hobby">Hobbies:</label>
+            <input id="hobby" class="form-control" type="text" placeholder="i.e. Exercising, Gaming, Sleeping, etc.">
+          </div>
+
+          <div class="form-group">
+            <label for="color">What is your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+          <button type="submit" class="btn">Finish</button>
+        </form>
+      </div>
+
+      <div id="things">
+        <h2>Your favorite things include:</h2>
+        <ul>
+          <li id="second"></li>
+          <li id="first"></li>
+          <li id="third"></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

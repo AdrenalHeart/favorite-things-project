@@ -1,0 +1,14 @@
+#things {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: skyblue;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
